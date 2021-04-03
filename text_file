@@ -1,0 +1,81 @@
+"Geography": France
+
+"Credit Score: 600
+
+"Gender: Male
+
+"Age: 40 years old
+
+"Tenure: 3 years
+
+"Balance: $ 60000
+
+Number of Products: 2
+
+Does this customer have a credit card ? Yes
+
+Is this customer an Active Member: Yes
+
+Estimated Salary: $ 50000
+
+female = 0
+male = 1
+france = 1,0,0
+germany = 0,1,0
+spain = 0,0,1
+
+
+#========================>>>>>
+CreditScore 600
+Geography France
+Gender Male
+Age 40 
+Tenure  3
+Balance 60000
+NumOfProducts 2
+HasCrCard Yes
+IsActiveMember Yes
+EstimatedSalary 50000
+#======================>>>>>>
+"CreditScore" :600,
+"Geography" :[1,0,0],
+"Gender" :1,
+"Age" :40, 
+"Tenure" :3,
+"Balance" :60000,
+"NumOfProducts" :2,
+"HasCrCard" :1,
+"IsActiveMember" :1,
+"EstimatedSalary" :50000
+
+#=====================>>>>>>>>{prediction features:}
+{
+"CreditScore" :600,
+"france" :1,
+"germany":0,
+"spain":0,
+"Gender" :1,
+"Age" :40, 
+"Tenure" :3,
+"Balance" :60000,
+"NumOfProducts" :2,
+"HasCrCard" :1,
+"IsActiveMember" :1,
+"EstimatedSalary" :50000
+}
+
+#=====================>>>>>>>>{prediction features 2:}
+{ 
+"CreditScore" :738,
+"france" :0,
+"germany":1,
+"spain":0,
+"Gender" :1,
+"Age" :58, 
+"Tenure" :2,
+"Balance" :133745.44,
+"NumOfProducts" :4,
+"HasCrCard" :1,
+"IsActiveMember" :0,
+"EstimatedSalary" :28373.86
+}
