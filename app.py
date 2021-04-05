@@ -30,11 +30,12 @@ def call_to_predict():
         y_pred = y_pred[0][0]
         
         predict_json= {
-            'prediction': float(y_pred)
+            'prediction value': float(y_pred),
+            'prediction':  str(y_pred < 0.5)
             }
         
         # print("this is Flatten >>>>>>>>>>>>",y_pred)
-        return jsonify({"this is something":predict_json})
+        return jsonify({"PREDICTIONS":predict_json})
     except:
         return jsonify({"An Error occured ": "Please check all input values / All inputs are mandatory"})
 

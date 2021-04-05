@@ -1,0 +1,13 @@
+tensorflow
+scikit-learn
+scipy
+pandas
+numpy
+h5py
+Keras
+Flask
+Flask-RESTful
+Flask-JWT
+Flask-SQLAlchemy
+uwsgi
+psycopg2
