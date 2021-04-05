@@ -19,10 +19,16 @@ this is a flask api with ann model for prediction
 "EstimatedSalary" :28373.86
 }
 
-# where Gender is 1 = male, 0 = female,
-(france = 1, germany = 0 , spain = 0) for Geography 'france'
-(france = 0, germany = 1 , spain = 0) for Geography 'germany'
-(france = 0, germany = 0 , spain = 1) for Geography 'spain'
+## Values Description 
+Gender is 1 = male, 0 = female,\
+(france = 1, germany = 0 , spain = 0) for Geography 'france'\
+(france = 0, germany = 1 , spain = 0) for Geography 'germany'\
+(france = 0, germany = 0 , spain = 1) for Geography 'spain'\
+Tenure = number of years\
+Balance = initial account balance\
+NumOfProducts = numbur of products consumed by customer\
+HasCrCard: 1 = having credit card, 0 = not having credit card\
+IsActiveMember: 1 = member is active, 0 = not active member\
 
 ## Prediction outputs
 True = leave the bank\
